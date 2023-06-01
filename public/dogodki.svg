@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="311" height="224" viewBox="0 0 311 224">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7f7f7"/>
+      <stop offset="1" stop-color="#c2c2c2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_79" data-name="Group 79" transform="translate(-878.797 -1019.962)">
+    <line id="Line_61" data-name="Line 61" x2="104.821" y2="64.798" transform="translate(937.087 1076.926)" fill="none" stroke="#cfcfcf" stroke-width="1"/>
+    <line id="Line_62" data-name="Line 62" x1="129.596" y2="102.915" transform="translate(1041.907 1038.809)" fill="none" stroke="#cfcfcf" stroke-width="1"/>
+    <line id="Line_63" data-name="Line 63" y1="83.856" x2="142.937" transform="translate(898.97 1141.724)" fill="none" stroke="#cfcfcf" stroke-width="1"/>
+    <line id="Line_64" data-name="Line 64" y1="80.045" transform="translate(1041.907 1141.724)" fill="none" stroke="#cfcfcf" stroke-width="1"/>
+    <line id="Line_65" data-name="Line 65" x1="110.538" y1="45.74" transform="translate(1041.907 1141.724)" fill="none" stroke="#cfcfcf" stroke-width="1"/>
+    <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(916.797 1057.962)" stroke="#cfcfcf" stroke-width="0.5" fill="url(#linear-gradient)">
+      <ellipse cx="19.5" cy="19" rx="19.5" ry="19" stroke="none"/>
+      <ellipse cx="19.5" cy="19" rx="19.25" ry="18.75" fill="none"/>
+    </g>
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(878.797 1205.962)" stroke="#cfcfcf" stroke-width="0.5" fill="url(#linear-gradient)">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="18.75" fill="none"/>
+    </g>
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(1022.797 1201.962)" stroke="#cfcfcf" stroke-width="0.5" fill="url(#linear-gradient)">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="18.75" fill="none"/>
+    </g>
+    <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(1133.797 1166.962)" stroke="#cfcfcf" stroke-width="0.5" fill="url(#linear-gradient)">
+      <ellipse cx="19" cy="19.5" rx="19" ry="19.5" stroke="none"/>
+      <ellipse cx="19" cy="19.5" rx="18.75" ry="19.25" fill="none"/>
+    </g>
+    <g id="Ellipse_19" data-name="Ellipse 19" transform="translate(1151.797 1019.962)" stroke="#cfcfcf" stroke-width="0.5" fill="url(#linear-gradient)">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="18.75" fill="none"/>
+    </g>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="matrix(1, -0.017, 0.017, 1, 1007.727, 1108.007)" stroke="#cfcfcf" stroke-width="0.5" fill="url(#linear-gradient)">
+      <circle cx="33.352" cy="33.352" r="33.352" stroke="none"/>
+      <circle cx="33.352" cy="33.352" r="33.102" fill="none"/>
+    </g>
+  </g>
+</svg>

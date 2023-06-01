@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="322" height="172" viewBox="0 0 322 172">
+  <defs>
+    <filter id="Rectangle_15" x="0" y="0" width="322" height="126" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d1d1d1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cfcfcf"/>
+      <stop offset="1" stop-color="#cfcfcf" stop-opacity="0.039"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_69" data-name="Group 69" transform="translate(-1266 -1339.475)">
+    <g transform="matrix(1, 0, 0, 1, 1266, 1339.48)" filter="url(#Rectangle_15)">
+      <g id="Rectangle_15-2" data-name="Rectangle 15" transform="translate(9 6)" fill="#fff" stroke="#cfcfcf" stroke-width="0.5">
+        <rect width="304" height="108" rx="5" stroke="none"/>
+        <rect x="0.25" y="0.25" width="303.5" height="107.5" rx="4.75" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="287" height="90" rx="3" transform="translate(1283 1355.475)" fill="#f7f7f7"/>
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="81" height="5" rx="1" transform="translate(1292 1434.475)" fill="#cfcfcf"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" width="29" height="2" rx="1" transform="translate(1534 1434.475)" fill="#cfcfcf"/>
+    <path id="Path_37" data-name="Path 37" d="M1325.811,1383.45c.98-1.633,16-21.23,25.15-19.924s2.94,12.738,6.532,16.984,6.532,7.186,7.839,4.573,0-10.125,4.246-12.738,17.311-12.085,18.944-14.045,11.432,5.879,13.065,9.146,6.859,14.371,4.9,16,15.351,8.492,19.6,7.839,26.129-12.738,17.311-18.944,17.311-8.166,20.25-14.045,6.532,14.045,9.472,22.21,11.432,15.678,6.532,18.291-159.39,2.286-159.39,2.286Z" transform="translate(-27.324 2.556)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="6" height="58" transform="translate(1327 1453.475)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="6" height="58" transform="translate(1521 1453.475)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

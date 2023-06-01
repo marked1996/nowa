@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168.146" height="112.5" viewBox="0 0 168.146 112.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7f7f7"/>
+      <stop offset="1" stop-color="#ececec"/>
+    </linearGradient>
+    <filter id="Path_40" x="0" y="0" width="166.974" height="112.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_41" x="126.32" y="68.845" width="41.827" height="41.498" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d1d1d1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_82" data-name="Group 82" transform="translate(-897.75 -1356.75)">
+    <g id="Group_81" data-name="Group 81" transform="translate(904 1360)">
+      <g transform="matrix(1, 0, 0, 1, -6.25, -3.25)" filter="url(#Path_40)">
+        <path id="Path_40-2" data-name="Path 40" d="M1426.889,661.63V755.57a3.03,3.03,0,0,0,3.031,3.03h123.535a3.032,3.032,0,0,0,2.143-.888l24.879-24.879a3.032,3.032,0,0,0,.888-2.142V661.63a3.032,3.032,0,0,0-3.03-3.03H1429.919A3.031,3.031,0,0,0,1426.889,661.63Z" transform="translate(-1420.64 -655.35)" stroke="#cfcfcf" stroke-width="0.5" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -6.25, -3.25)" filter="url(#Path_41)">
+        <path id="Path_41-2" data-name="Path 41" d="M1511.25,732.525v-24a1.516,1.516,0,0,1,1.515-1.515h24.568a.237.237,0,0,1,.167.4l-25.445,25.445A.472.472,0,0,1,1511.25,732.525Z" transform="translate(-1377.18 -630.41)" fill="#f7f7f7" stroke="#cfcfcf" stroke-width="0.5"/>
+      </g>
+    </g>
+    <path id="Path_42" data-name="Path 42" d="M1323.954,1374.684c.652-1.087,10.653-14.132,16.741-13.262s1.957,8.479,4.348,11.306,4.349,4.783,5.218,3.044,0-6.74,2.826-8.479,11.523-8.045,12.61-9.35,7.609,3.914,8.7,6.088,4.566,9.566,3.261,10.653,10.219,5.653,13.045,5.218,17.393-8.479,11.523-12.61,11.523-5.436,13.48-9.35,4.348,9.35,6.305,14.785,7.61,10.436,4.348,12.176-106.1,1.522-106.1,1.522Z" transform="translate(-393.24 37.831)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

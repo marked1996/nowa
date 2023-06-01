@@ -3,25 +3,29 @@
 @tailwind utilities;
 
 .small {
-  @apply text-xs tracking-[-0.14px] leading-[21px];
+  @apply font-inter text-xs tracking-[-0.14px] leading-[21px];
 }
 
 .base {
-  @apply text-base tracking-[-0.16px] leading-[24px];
+  @apply font-inter text-base tracking-[-0.16px] leading-[24px];
 }
 
 .large {
-  @apply text-lg tracking-[-0.18px] leading-[32px];
+  @apply font-inter text-lg tracking-[-0.2px] leading-[32px];
 }
 
 .xlarge {
-  @apply text-xl tracking-[-0.2px] leading-[36px];
+  @apply font-inter text-xl tracking-[-0.3px] leading-[36px];
 }
 
 .heading {
-  @apply text-heading font-bold tracking-[-0.075ch] leading-[40px];
+  @apply font-inter text-heading font-bold tracking-[-0.075ch] leading-[40px];
 }
 
 .title {
-  @apply text-title font-extrabold tracking-[-0.075ch] leading-[76px];
+  @apply font-inter text-title font-bold tracking-[-0.075ch] leading-[76px];
+}
+
+.grid-background {
+  background: radial-gradient(circle at center, transparent, #f7f7f7);
 }

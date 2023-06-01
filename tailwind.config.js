@@ -9,8 +9,8 @@ module.exports = {
     fontSize: {
       xs: "14px",
       base: "16px",
-      lg: "18px",
-      xl: "20px",
+      lg: "clamp(16px, 2.5vw, 18px)",
+      xl: "clamp(18px, 2.75vw ,20px)",
       heading: "clamp(26px, 3vw, 32px)",
       title: "clamp(52px, 6vw, 76px)",
     },
@@ -22,8 +22,10 @@ module.exports = {
       colors: {
         light: "#F7F7F7",
         gray: "#666666",
+        hover: "#B1B1B1",
         dark: "#111111",
         border: "#CFCFCF",
+        border_hero: "#DBDBDB",
       },
     },
   },

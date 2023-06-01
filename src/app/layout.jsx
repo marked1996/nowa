@@ -1,6 +1,12 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+
+//header footer
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
+//bg img
 import nowaBg from "../../public/nowa-bg.svg";
 
 const inter = Inter({
@@ -18,9 +24,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`m-auto ${inter.variable} bg-light text-dark overflow-x-hidden`}
+        className={`m-auto ${inter.variable} bg-light text-dark overflow-x-hidden text-base`}
       >
-        <div className="fixed top-1/3 lg:top-1/4 left-0 w-[100vw] h-[25vw] lg:h-[21vw]">
+        <Header />
+        <div className="fixed top-1/3 lg:top-1/4 left-0 w-[100vw] h-[23vw] lg:h-[21vw] -z-10">
           <Image
             src={nowaBg}
             alt="Nowa Background"
@@ -32,7 +39,10 @@ export default function RootLayout({ children }) {
             fill={true}
           />
         </div>
-        <main className="max-w-[1238px] m-auto">{children}</main>
+        {/* overflow-x hidden na main da skrijem side scroll na body, ampak marquee potem nemore bit 100vw */}
+
+        <main className="max-w-[1238px] m-auto py-4 px-5">{children}</main>
+        <Footer />
       </body>
     </html>
   );
