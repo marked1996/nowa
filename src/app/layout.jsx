@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Nowa d.o.o.",
+  title: "Nowa agencija",
   description: "Brand engineering agency",
 };
 
@@ -39,7 +39,6 @@ export default function RootLayout({ children }) {
             fill={true}
           />
         </div>
-        {/* overflow-x hidden na main da skrijem side scroll na body, ampak marquee potem nemore bit 100vw */}
 
         <main className=" py-4 overflow-x-hidden">{children}</main>
         <Footer />
