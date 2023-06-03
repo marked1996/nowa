@@ -19,7 +19,7 @@ function MobileNav({ isNavOpen, handleClick }) {
   return (
     <>
       {isNavOpen ? (
-        <header className="sticky top-0 flex flex-col lg:hidden w-screen h-screen justify-between py-4 px-5 bg-light">
+        <header className="z-50 sticky top-0 flex flex-col lg:hidden w-screen h-screen justify-between py-4 px-5 bg-light">
           <nav className="flex justify-between items-start">
             <ul className="flex flex-col gap-4 font-medium text-[20px] tracking-[-0.0825ch]">
               <li onClick={handleClick}>
@@ -52,7 +52,7 @@ function MobileNav({ isNavOpen, handleClick }) {
           </section>
         </header>
       ) : (
-        <header className="flex justify-between items-center w-screen py-4 px-5 lg:hidden">
+        <header className="z-50 sticky top-0 flex justify-between items-center w-screen py-4 px-5 lg:hidden border-b border-border bg-light">
           <div className="logo h-8 w-20 relative">
             <Link href="/">
               <Image
