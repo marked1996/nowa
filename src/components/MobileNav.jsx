@@ -39,10 +39,11 @@ function MobileNav({ isNavOpen, handleClick }) {
               </li>
             </ul>
             <button
-              className="font-medium text-[20px] tracking-[-0.0825ch]"
+              className="font-medium text-[20px] tracking-[-0.0825ch] relative w-5 h-5"
               onClick={handleClick}
             >
-              Zapri
+              <div className="absolute top-1/2 left-0 w-full h-[2px] rotate-45 translate-y-1/2 bg-dark"></div>
+              <div className="absolute top-1/2 left-0 w-full h-[2px] -rotate-45 translate-y-1/2 bg-dark"></div>
             </button>
           </nav>
           <section className="info base">
