@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         </div>
         {/* overflow-x hidden na main da skrijem side scroll na body, ampak marquee potem nemore bit 100vw */}
 
-        <main className="max-w-[1238px] m-auto py-4 px-5">{children}</main>
+        <main className=" py-4 overflow-x-hidden">{children}</main>
         <Footer />
       </body>
     </html>

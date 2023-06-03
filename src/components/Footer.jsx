@@ -5,7 +5,7 @@ import logo from "../../public/logo.svg";
 
 function Footer() {
   return (
-    <footer className="w-full] m-auto  py-8 px-5 border-t border-border bg-gradient-to-b from-light flex flex-col md:flex-row justify-around items-start gap-12 md:gap-0 relative">
+    <footer className="w-full m-auto  py-8 px-5 border-t border-border bg-light flex flex-col md:flex-row justify-around items-start gap-12 md:gap-0 relative">
       <div className="flex flex-col">
         <div className="logo h-6 w-16 lg:h-4 lg:w-20 relative">
           <Link href="/">
@@ -21,7 +21,7 @@ function Footer() {
             />
           </Link>
         </div>
-        <ul className="flex flex-col pt-8 base">
+        <ul className="flex flex-col pt-8 small">
           <li>nowa d.o.o.</li>
           <li>+386 41 335 749</li>
           <li className="hover:text-gray duration-300">
@@ -49,8 +49,19 @@ function Footer() {
           </li>
         </ul>
       </nav>
-      <p className="small absolute bottom-2 left-1/2 -translate-x-1/2 text-hover ">
-        Copyright © 2023 nowa d.o.o. Vse pravice pridržane.
+      <p className="ultrasmall absolute bottom-2 left-1/2 -translate-x-1/2 text-hover ">
+        Copyright © 2023 nowa d.o.o. Vse pravice pridržane.{" "}
+        <span>
+          Izdelava in dizajn:{" "}
+          <a
+            className="text-gray"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://novakmark.co"
+          >
+            Marked
+          </a>
+        </span>
       </p>
     </footer>
   );

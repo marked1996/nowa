@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 import prevozi from "../../public/prevozi.svg";
 import dogodki from "../../public/dogodki.svg";
 import print from "../../public/print.svg";
@@ -11,7 +13,10 @@ import stickers from "../../public/stickers.svg";
 function Cards() {
   return (
     <div className="cards grid grid-cols-1 gap-3 md:gap-4 md:grid-cols-2 lg:grid-cols-3">
-      <article className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative">
+      <Link
+        href="/kontakt"
+        className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative hover:border-dark duration-300"
+      >
         <div className="grid-bg w-full h-full absolute top-0 left-0 overflow-hidden opacity-10">
           {/* grid image */}
           <Image
@@ -39,9 +44,12 @@ function Cards() {
             Sloveniji in tudi v tujini.
           </p>
         </div>
-      </article>
+      </Link>
 
-      <article className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative">
+      <Link
+        href="/kontakt"
+        className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative hover:border-dark duration-300"
+      >
         <div className="grid-bg w-full h-full absolute top-0 left-0 overflow-hidden opacity-10">
           {/* grid image */}
           <Image
@@ -63,14 +71,18 @@ function Cards() {
         <div className="z-10">
           <h3 className="xlarge pt-6 md:pt-8 lg:pt-10 font-bold">Dogodki</h3>
           <p className="small text-gray">
-            Izdelamo in opremimo razstavni prostor za sejem, maraton, dogodek na
-            prostem v celoti. Za sejem, razstavni prostor ali promocijski
+            Izdelamo in opremimo razstavni prostor za sejem, maraton ali dogodek
+            na prostem v celoti. Za sejem, razstavni prostor ali promocijski
             dogodek vam izdelamo in postavimo ter brendiramo prostor po vaših
-            željah. Kjer koli kadar koli.
+            željah. Kjerkoli kadar koli.
           </p>
         </div>
-      </article>
-      <article className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative">
+      </Link>
+
+      <Link
+        href="/kontakt"
+        className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative hover:border-dark duration-300"
+      >
         <div className="grid-bg w-full h-full absolute top-0 left-0 overflow-hidden opacity-10">
           {/* grid image */}
           <Image
@@ -98,8 +110,11 @@ function Cards() {
             vam radi prihranili stroške, čas in trud.
           </p>
         </div>
-      </article>
-      <article className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative">
+      </Link>
+      <Link
+        href="/kontakt"
+        className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative hover:border-dark duration-300"
+      >
         <div className="grid-bg w-full h-full absolute top-0 left-0 overflow-hidden opacity-10">
           {/* grid image */}
           <Image
@@ -125,8 +140,11 @@ function Cards() {
             ostale materiale vizualnih komunikacij?
           </p>
         </div>
-      </article>
-      <article className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative">
+      </Link>
+      <Link
+        href="/kontakt"
+        className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative hover:border-dark duration-300"
+      >
         <div className="grid-bg w-full h-full absolute top-0 left-0 overflow-hidden opacity-10">
           {/* grid image */}
           <Image
@@ -156,8 +174,11 @@ function Cards() {
             naslov za vas.
           </p>
         </div>
-      </article>
-      <article className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative">
+      </Link>
+      <Link
+        href="/kontakt"
+        className="rounded-lg border border-border p-6 bg-light flex flex-col justify-between relative hover:border-dark duration-300"
+      >
         <div className="grid-bg w-full h-full absolute top-0 left-0 overflow-hidden opacity-10">
           {/* grid image */}
           <Image
@@ -186,7 +207,7 @@ function Cards() {
             ceradno platno itd. Dimenzija za nas ni ovira.
           </p>
         </div>
-      </article>
+      </Link>
     </div>
   );
 }

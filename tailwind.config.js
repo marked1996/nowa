@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     fontSize: {
+      ultraxs: "12px",
       xs: "14px",
       base: "16px",
       lg: "clamp(16px, 2.5vw, 18px)",
@@ -16,6 +17,10 @@ module.exports = {
     },
 
     extend: {
+      //add to every section !! not to the page because of marquee
+      spacing: {
+        section: "16px",
+      },
       fontFamily: {
         inter: ["var(--font-inter)"],
       },
@@ -25,7 +30,7 @@ module.exports = {
         hover: "#B1B1B1",
         dark: "#111111",
         border: "#CFCFCF",
-        border_hero: "#DBDBDB",
+        border_hero: "#E6E6E6",
       },
     },
   },

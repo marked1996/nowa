@@ -4,7 +4,7 @@ import logo from "../../public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import ButtonDark from "./ButtonDark";
+import ButtonLight from "./ButtonLight";
 
 function PcNav() {
   const pathname = usePathname();
@@ -65,7 +65,7 @@ function PcNav() {
       </nav>
       <div className="flex justify-center items-center gap-4">
         <p className="base font-medium">+386 41 335 749</p>
-        <ButtonDark href="/kontakt" value="Kontakt" />
+        <ButtonLight href="/kontakt" value="Kontakt" />
       </div>
     </header>
   );
