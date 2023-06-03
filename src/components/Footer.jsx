@@ -49,7 +49,7 @@ function Footer() {
           </li>
         </ul>
       </nav>
-      <p className="ultrasmall absolute bottom-2 left-1/2 -translate-x-1/2 text-hover ">
+      <p className="ultrasmall absolute bottom-2 left-5 md:left-1/2 md:-translate-x-1/2 text-hover ">
         Copyright © 2023 nowa d.o.o. Vse pravice pridržane.{" "}
         <span>
           Izdelava in dizajn:{" "}
