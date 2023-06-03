@@ -20,6 +20,7 @@ function ReferencePage() {
           {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -28,9 +29,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -39,9 +40,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -50,9 +51,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -61,9 +62,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -72,10 +73,9 @@ function ReferencePage() {
               }}
             />
           </article>
-
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -84,9 +84,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -95,9 +95,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -106,9 +106,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -117,9 +117,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -128,9 +128,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -139,9 +139,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -150,9 +150,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -161,9 +161,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -172,9 +172,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -183,9 +183,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -194,9 +194,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",
@@ -205,163 +205,9 @@ function ReferencePage() {
               }}
             />
           </article>
-          {/* Image container */}
           <article className="relative rounded-xl overflow-hidden">
             <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
-              src={placeholderimg}
-              style={{
-                objectFit: "cover",
-                backgroundPosition: "center",
-                opacity: "0.9",
-              }}
-            />
-          </article>
-          {/* Image container */}
-          <article className="relative rounded-xl overflow-hidden">
-            <Image
+              alt="placeholder img"
               src={placeholderimg}
               style={{
                 objectFit: "cover",

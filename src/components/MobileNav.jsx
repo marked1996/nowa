@@ -5,12 +5,16 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/logo.svg";
 
+import { useEffect } from "react";
+
 function MobileNav({ isNavOpen, handleClick }) {
-  if (isNavOpen) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "visible";
-  }
+  useEffect(() => {
+    if (isNavOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
+  }, []);
 
   return (
     <>

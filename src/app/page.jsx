@@ -31,7 +31,7 @@ export default function HomePage() {
         </h2>
         <p className="base text-center max-w-[1238px] m-auto pb-4 md:pb-6 lg:pb-8 px-section">
           Z vami že od leta 1990, od 2023 z novo podobo. Za naše naročnike
-          ustvarjamo uspešne zgodbe. Vsako leto uspešno izpeljemo več kot 100
+          ustvarjamo uspešne zgodbe. Vsako leto uspešno izpeljemo več kot 100n
           projektov, dogodkov, sejmov in razstav. Potrditev naše zanesljivosti
           in kvalitete lahko potrdijo številna podjetja, kot so Spar, Hervis,
           OMW in še mnogo drugih.
