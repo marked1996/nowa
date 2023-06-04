@@ -1,17 +1,18 @@
+"use client";
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import grid from "../../public/gridbg.svg";
 
-import dogodki from "../../public/dogodki.svg";
-import print from "../../public/print.svg";
-import cgp from "../../public/cgp.svg";
-import panoji from "../../public/panoji.svg";
-import stickers from "../../public/stickers.svg";
+import { motion } from "framer-motion";
 
 function Values() {
   return (
-    <div className="cards grid grid-cols-1 gap-3 md:gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
+      className="cards grid grid-cols-1 gap-3 md:gap-4 md:grid-cols-2 lg:grid-cols-3"
+    >
       {/* card */}
       <article
         href="/kontakt"
@@ -157,7 +158,7 @@ function Values() {
           </p>
         </div>
       </article>
-    </div>
+    </motion.div>
   );
 }
 

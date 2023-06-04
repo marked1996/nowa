@@ -1,12 +1,20 @@
+"use client";
+
 import React from "react";
 import ButtonLight from "./ButtonLight";
 import ButtonDark from "./ButtonDark";
+import { motion } from "framer-motion";
 
 function HeroSection({ title, text, hrefDark, hrefLight }) {
   return (
     <>
       {hrefLight ? (
-        <section className=" my-12 md:my-28 lg:my-32 max-w-[1238px] m-auto px-section">
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3, ease: "easeOut" }}
+          className=" my-12 md:my-28 lg:my-32 max-w-[1238px] m-auto px-section"
+        >
           <div className=" relative py-5 px-2 md:py-6 md:px-4 lg:py-8 lg:px-4">
             <div className="absolute rounded-full w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 border border-dashed border-border_hero top-0 left-0 -translate-x-1/2 -translate-y-1/2"></div>
             <div
@@ -55,9 +63,14 @@ function HeroSection({ title, text, hrefDark, hrefLight }) {
               className="absolute h-[115%] md:h-[120%] lg:h-[130%] top-0 right-0 border-dashed border border-border_hero"
             ></div>
           </div>
-        </section>
+        </motion.section>
       ) : (
-        <section className=" my-12 md:my-28 lg:my-32 max-w-[1238px] m-auto px-section">
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3, ease: "easeOut" }}
+          className=" my-12 md:my-28 lg:my-32 max-w-[1238px] m-auto px-section"
+        >
           <div className=" relative py-5 px-2 md:py-6 md:p3-4 lg:py-8 lg:px-4">
             <div className="absolute rounded-full w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 border border-dashed border-border_hero top-0 left-0 -translate-x-1/2 -translate-y-1/2"></div>
             <div
@@ -105,7 +118,7 @@ function HeroSection({ title, text, hrefDark, hrefLight }) {
               className="absolute h-[115%] md:h-[120%] lg:h-[130%] top-0 right-0 border-dashed border border-border_hero"
             ></div>
           </div>
-        </section>
+        </motion.section>
       )}
     </>
   );
