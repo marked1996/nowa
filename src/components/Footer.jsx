@@ -54,7 +54,7 @@ function Footer() {
         <span>
           Izdelava in dizajn:{" "}
           <a
-            className="text-gray"
+            className="text-gray hover:text-dark"
             target="_blank"
             rel="noopener noreferrer"
             href="https://novakmark.co"

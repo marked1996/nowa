@@ -9,12 +9,17 @@ import { useEffect } from "react";
 
 function MobileNav({ isNavOpen, handleClick }) {
   useEffect(() => {
-    if (isNavOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "visible";
-    }
-  }, []);
+    const handleToggleScroll = () => {
+      document.body.classList.toggle("no-scroll", isNavOpen);
+    };
+
+    handleToggleScroll(); // Call it once to initialize the class based on initial state
+
+    return () => {
+      // Cleanup function to remove the event listener
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isNavOpen]);
 
   return (
     <>

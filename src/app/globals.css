@@ -24,7 +24,7 @@
 }
 
 .xlarge {
-  @apply font-inter text-xl tracking-[-0.3px] leading-[22px];
+  @apply font-inter text-xl tracking-[-0.3px] leading-[24px];
 }
 
 .heading {
@@ -42,4 +42,8 @@
 .marquee-container {
   width: calc(100vw - (100vw - 100%)) !important;
   background-color: #f7f7f7;
+}
+
+body.no-scroll {
+  overflow: hidden;
 }
