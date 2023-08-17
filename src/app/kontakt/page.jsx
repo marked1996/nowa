@@ -1,7 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import React from "react";
-import ButtonLight from "../../components/ButtonLight";
+// import ButtonLight from "../../components/ButtonLight";
+import ContactForm from "@/components/ContactForm";
 
 function ContactPage() {
   return (
@@ -20,9 +21,8 @@ function ContactPage() {
             razumevanje in zaupanje.
           </p>
         </div>
-        <div className="text-center pt-6 md:pt-8 lg:pt-12">
-          <ButtonLight href="mailto:nowa@t-2.net" value="nowa@t-2.net" />
-        </div>
+
+        <ContactForm />
       </motion.section>
     </>
   );

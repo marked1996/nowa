@@ -32,7 +32,7 @@
 }
 
 .title {
-  @apply font-inter text-title font-bold tracking-[-0.075ch] leading-[76px];
+  @apply font-inter text-title font-bold tracking-[-0.075ch];
 }
 
 .grid-background {
@@ -46,4 +46,10 @@
 
 body.no-scroll {
   overflow: hidden;
+}
+
+.title-grad {
+  background-image: linear-gradient(to top, #000000, #666666);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }

@@ -12,7 +12,7 @@ function HeroSection({ title, text, hrefDark, hrefLight }) {
         <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className=" my-12 md:my-28 lg:my-32 max-w-[1238px] m-auto px-section"
         >
           <div className=" relative py-5 px-2 md:py-6 md:px-4 lg:py-8 lg:px-4">
@@ -29,7 +29,7 @@ function HeroSection({ title, text, hrefDark, hrefLight }) {
               data-position="right"
               className="absolute h-[115%] md:h-[120%] lg:h-[130%] bottom-0 right-0 border-dashed border border-border_hero"
             ></div>
-            <h1 className="title text-center">{title}</h1>
+            <h1 className="title title-grad text-center">{title}</h1>
           </div>
           <div className=" relative py-5 px-2 md:py-6 md:px-4 lg:py-8 lg:px-4">
             <div className="absolute w-[110%] -translate-x-[5%] top-0 left-0 border-dashed border border-border_hero "></div>
@@ -85,7 +85,7 @@ function HeroSection({ title, text, hrefDark, hrefLight }) {
               data-position="right"
               className="absolute h-[115%] md:h-[120%] lg:h-[130%] bottom-0 right-0 border-dashed border border-border_hero"
             ></div>
-            <h1 className="title text-center">{title}</h1>
+            <h1 className="title-grad title text-center">{title}</h1>
           </div>
           <div className=" relative py-8 px-4">
             <div className="absolute w-[110%] -translate-x-[5%] top-0 left-0 border-dashed border border-border_hero "></div>

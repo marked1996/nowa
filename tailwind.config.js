@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  plugins: [require("tailwindcss"), require("autoprefixer")],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -31,6 +32,8 @@ module.exports = {
         dark: "#111111",
         border: "#CFCFCF",
         border_hero: "#E6E6E6",
+        // orange: "#FF6900",
+        metalic_orange: "#FF6900",
       },
     },
   },
